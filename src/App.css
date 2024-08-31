@@ -1,0 +1,100 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/* Text Styles */
+h1, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-orange-400 {
+  color: #f97316;
+}
+
+/* Flex and Layout Styles */
+.flex {
+  display: flex;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+/* Hide Scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Custom Border Style */
+.border-custom-color {
+  border-color: #D29A5A;
+}
+
+/* Utility Styles */
+.w-full {
+  width: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .p-4 {
+    padding: 0.5rem; /* Less padding on smaller screens */
+  }
+}
